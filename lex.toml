@@ -1,0 +1,13 @@
+[package]
+name        = "lex-mcp-client"
+version     = "0.1.0"
+lex         = "0.9.10"
+description = "MCP client for lex — connect to an MCP server over streamable HTTP and adapt its tools into lex-llm Tools so a lex agent can use them."
+license     = "EUPL-1.2"
+
+# Git deps (workspace policy + avoids the flat-layout path/git conflict, since
+# transitive deps like lex-spec/lex-crypto already pin git lex-schema).
+[dependencies]
+lex-schema = { git = "https://github.com/alpibrusl/lex-schema" }
+lex-llm    = { git = "https://github.com/alpibrusl/lex-llm" }
+lex-mcp    = { git = "https://github.com/alpibrusl/lex-mcp" }
