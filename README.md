@@ -58,3 +58,9 @@ lex check src/client.lex
 lex fmt src examples
 ```
 Dependencies are git (workspace policy) — `lex-schema`, `lex-llm`, `lex-mcp`.
+
+## License
+
+Copyright (c) 2026 lex-mcp-client contributors.
+
+Licensed under the [EUPL-1.2](LICENSE) — the European Union Public Licence, as used across the `lex-*` ecosystem.
