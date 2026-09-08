@@ -1,7 +1,7 @@
 [package]
 name        = "lex-mcp-client"
 version     = "0.1.0"
-lex         = "0.9.10"
+lex         = "0.10.18"
 description = "MCP client for lex — connect to an MCP server over streamable HTTP and adapt its tools into lex-llm Tools so a lex agent can use them."
 license     = "EUPL-1.2"
 
